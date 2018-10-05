@@ -1,0 +1,3 @@
+vhdl work "divisor.vhd"
+vhdl work "registro_siso.vhd"
+vhdl work "tb_registro_siso.vhd"

@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+par -w -intstyle ise -ol high -t 1 registro_sp_map.ncd registro_sp.ncd registro_sp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro_sp.twx registro_sp.ncd -o registro_sp.twr registro_sp.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f registro_sp.ut registro_sp.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+par -w -intstyle ise -ol high -t 1 registro_sp_map.ncd registro_sp.ncd registro_sp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro_sp.twx registro_sp.ncd -o registro_sp.twr registro_sp.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f registro_sp.ut registro_sp.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+par -w -intstyle ise -ol high -t 1 registro_sp_map.ncd registro_sp.ncd registro_sp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro_sp.twx registro_sp.ncd -o registro_sp.twr registro_sp.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f registro_sp.ut registro_sp.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Pr1/registro_sp.xst" -ofn "C:/hlocal/Pr1/registro_sp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines_P1.ucf -p xc3s1000-ft256-5 registro_sp.ngc registro_sp.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o registro_sp_map.ncd registro_sp.ngd registro_sp.pcf 
+par -w -intstyle ise -ol high -t 1 registro_sp_map.ncd registro_sp.ncd registro_sp.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml registro_sp.twx registro_sp.ncd -o registro_sp.twr registro_sp.pcf -ucf pines_P1.ucf 
+bitgen -intstyle ise -f registro_sp.ut registro_sp.ncd 

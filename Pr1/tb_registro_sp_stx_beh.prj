@@ -1,0 +1,3 @@
+vhdl isim_temp "divisor.vhd"
+vhdl isim_temp "registro_sp.vhd"
+vhdl isim_temp "tb_registro_sp.vhd"

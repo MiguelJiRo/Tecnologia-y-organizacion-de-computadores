@@ -1,0 +1,28 @@
+Command line:
+   registro_siso_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  52265
+
+Tue Oct 02 12:37:23 2018
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5803.91 Meg
+
+ Total Signals          : 6
+ Total Nets             : 13
+ Total Signal Drivers   : 3
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 373
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5803.91 Meg
+
+Tue Oct 02 12:37:39 2018
+

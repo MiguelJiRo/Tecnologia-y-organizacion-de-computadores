@@ -1,0 +1,8 @@
+EN registro_siso NULL C:/hlocal/Pr1/registro_siso.vhd sub00/vhpl04 1538572592
+AR registro_sp behavioral C:/hlocal/Pr1/registro_sp.vhd sub00/vhpl07 1538572688
+EN registro_sp NULL C:/hlocal/Pr1/registro_sp.vhd sub00/vhpl06 1538572687
+AR divisor rtl C:/hlocal/Pr1/divisor.vhd sub00/vhpl03 1538572686
+AR sumador behavioral C:/hlocal/Pr1/sumador.vhd sub00/vhpl01 1538572531
+EN divisor NULL C:/hlocal/Pr1/divisor.vhd sub00/vhpl02 1538572685
+AR registro_siso behavioral C:/hlocal/Pr1/registro_siso.vhd sub00/vhpl05 1538572593
+EN sumador NULL C:/hlocal/Pr1/sumador.vhd sub00/vhpl00 1538572530
