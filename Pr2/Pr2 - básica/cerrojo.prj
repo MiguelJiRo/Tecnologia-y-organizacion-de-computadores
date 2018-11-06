@@ -1,0 +1,3 @@
+vhdl work "debouncer.vhd"
+vhdl work "conv_7seg.vhd"
+vhdl work "cerrojo.vhd"

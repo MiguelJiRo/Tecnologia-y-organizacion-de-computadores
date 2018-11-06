@@ -1,0 +1,3 @@
+vhdl isim_temp "sumador.vhd"
+vhdl isim_temp "multiplicador.vhd"
+vhdl isim_temp "multiplicador_tb.vhd"

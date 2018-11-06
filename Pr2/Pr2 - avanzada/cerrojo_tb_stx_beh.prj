@@ -1,0 +1,4 @@
+vhdl isim_temp "debouncer.vhd"
+vhdl isim_temp "conv_7seg.vhd"
+vhdl isim_temp "cerrojo.vhd"
+vhdl isim_temp "cerrojo_tb.vhd"

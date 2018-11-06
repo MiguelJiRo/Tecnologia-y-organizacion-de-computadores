@@ -1,0 +1,3 @@
+work	"cerrojo.vhd"
+work	"conv_7seg.vhd"
+work	"debouncer.vhd"

@@ -1,0 +1,28 @@
+Command line:
+   cerrojo_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50182
+
+Wed Oct 17 16:54:12 2018
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5804.09 Meg
+
+ Total Signals          : 33
+ Total Nets             : 75
+ Total Signal Drivers   : 21
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 12
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 582
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5332.23 Meg
+
+Wed Oct 17 16:58:18 2018
+

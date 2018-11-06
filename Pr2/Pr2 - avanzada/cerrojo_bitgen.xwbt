@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\hlocal\Pr2 avanzada\cerrojo.ncd
+OUTFILE=C:\hlocal\Pr2 avanzada\cerrojo.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=C:\hlocal\Pr2 avanzada
+LICENSE=ISE
+USER_INFO=210699396_1777489394_210552810_807

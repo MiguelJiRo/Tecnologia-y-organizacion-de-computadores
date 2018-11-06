@@ -1,0 +1,410 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+-intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cerrojo.twx cerrojo.ncd -o
+cerrojo.twr cerrojo.pcf -ucf pines.ucf
+
+Design file:              cerrojo.ncd
+Physical constraint file: cerrojo.pcf
+Device,package,speed:     xc3s1000,ft256,-5 (PRODUCTION 1.39 2012-04-23)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------------+--------+
+            |Max Setup to|Max Hold to |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+eq          |    1.974(R)|   -0.527(R)|clk_BUFGP         |   0.000|
+rst         |    4.934(R)|   -1.943(R)|clk_BUFGP         |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+-------------------+------------+------------------+--------+
+                   | clk (edge) |                  | Clock  |
+Destination        |   to PAD   |Internal Clock(s) | Phase  |
+-------------------+------------+------------------+--------+
+intentos_cerrojo<0>|   13.893(R)|clk_BUFGP         |   0.000|
+intentos_cerrojo<2>|   13.812(R)|clk_BUFGP         |   0.000|
+intentos_cerrojo<3>|   15.533(R)|clk_BUFGP         |   0.000|
+intentos_cerrojo<4>|   13.690(R)|clk_BUFGP         |   0.000|
+intentos_cerrojo<5>|   14.765(R)|clk_BUFGP         |   0.000|
+intentos_cerrojo<6>|   13.720(R)|clk_BUFGP         |   0.000|
+-------------------+------------+------------------+--------+
+
+Clock intro<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   16.476(F)|leds_not0002      |   0.000|
+leds<1>     |   16.487(F)|leds_not0002      |   0.000|
+leds<2>     |   16.485(F)|leds_not0002      |   0.000|
+leds<3>     |   16.487(F)|leds_not0002      |   0.000|
+leds<4>     |   16.378(F)|leds_not0002      |   0.000|
+leds<5>     |   16.395(F)|leds_not0002      |   0.000|
+leds<6>     |   16.531(F)|leds_not0002      |   0.000|
+leds<7>     |   16.523(F)|leds_not0002      |   0.000|
+leds<8>     |   16.528(F)|leds_not0002      |   0.000|
+leds<9>     |   16.531(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   16.196(F)|leds_not0002      |   0.000|
+leds<1>     |   16.207(F)|leds_not0002      |   0.000|
+leds<2>     |   16.205(F)|leds_not0002      |   0.000|
+leds<3>     |   16.207(F)|leds_not0002      |   0.000|
+leds<4>     |   16.098(F)|leds_not0002      |   0.000|
+leds<5>     |   16.115(F)|leds_not0002      |   0.000|
+leds<6>     |   16.251(F)|leds_not0002      |   0.000|
+leds<7>     |   16.243(F)|leds_not0002      |   0.000|
+leds<8>     |   16.248(F)|leds_not0002      |   0.000|
+leds<9>     |   16.251(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   16.006(F)|leds_not0002      |   0.000|
+leds<1>     |   16.017(F)|leds_not0002      |   0.000|
+leds<2>     |   16.015(F)|leds_not0002      |   0.000|
+leds<3>     |   16.017(F)|leds_not0002      |   0.000|
+leds<4>     |   15.908(F)|leds_not0002      |   0.000|
+leds<5>     |   15.925(F)|leds_not0002      |   0.000|
+leds<6>     |   16.061(F)|leds_not0002      |   0.000|
+leds<7>     |   16.053(F)|leds_not0002      |   0.000|
+leds<8>     |   16.058(F)|leds_not0002      |   0.000|
+leds<9>     |   16.061(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<3> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   15.802(F)|leds_not0002      |   0.000|
+leds<1>     |   15.813(F)|leds_not0002      |   0.000|
+leds<2>     |   15.811(F)|leds_not0002      |   0.000|
+leds<3>     |   15.813(F)|leds_not0002      |   0.000|
+leds<4>     |   15.704(F)|leds_not0002      |   0.000|
+leds<5>     |   15.721(F)|leds_not0002      |   0.000|
+leds<6>     |   15.857(F)|leds_not0002      |   0.000|
+leds<7>     |   15.849(F)|leds_not0002      |   0.000|
+leds<8>     |   15.854(F)|leds_not0002      |   0.000|
+leds<9>     |   15.857(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<4> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   16.695(F)|leds_not0002      |   0.000|
+leds<1>     |   16.706(F)|leds_not0002      |   0.000|
+leds<2>     |   16.704(F)|leds_not0002      |   0.000|
+leds<3>     |   16.706(F)|leds_not0002      |   0.000|
+leds<4>     |   16.597(F)|leds_not0002      |   0.000|
+leds<5>     |   16.614(F)|leds_not0002      |   0.000|
+leds<6>     |   16.750(F)|leds_not0002      |   0.000|
+leds<7>     |   16.742(F)|leds_not0002      |   0.000|
+leds<8>     |   16.747(F)|leds_not0002      |   0.000|
+leds<9>     |   16.750(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<5> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   15.645(F)|leds_not0002      |   0.000|
+leds<1>     |   15.656(F)|leds_not0002      |   0.000|
+leds<2>     |   15.654(F)|leds_not0002      |   0.000|
+leds<3>     |   15.656(F)|leds_not0002      |   0.000|
+leds<4>     |   15.547(F)|leds_not0002      |   0.000|
+leds<5>     |   15.564(F)|leds_not0002      |   0.000|
+leds<6>     |   15.700(F)|leds_not0002      |   0.000|
+leds<7>     |   15.692(F)|leds_not0002      |   0.000|
+leds<8>     |   15.697(F)|leds_not0002      |   0.000|
+leds<9>     |   15.700(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<6> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   13.375(F)|leds_not0002      |   0.000|
+leds<1>     |   13.386(F)|leds_not0002      |   0.000|
+leds<2>     |   13.384(F)|leds_not0002      |   0.000|
+leds<3>     |   13.386(F)|leds_not0002      |   0.000|
+leds<4>     |   13.277(F)|leds_not0002      |   0.000|
+leds<5>     |   13.294(F)|leds_not0002      |   0.000|
+leds<6>     |   13.430(F)|leds_not0002      |   0.000|
+leds<7>     |   13.422(F)|leds_not0002      |   0.000|
+leds<8>     |   13.427(F)|leds_not0002      |   0.000|
+leds<9>     |   13.430(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock intro<7> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+leds<0>     |   14.498(F)|leds_not0002      |   0.000|
+leds<1>     |   14.509(F)|leds_not0002      |   0.000|
+leds<2>     |   14.507(F)|leds_not0002      |   0.000|
+leds<3>     |   14.509(F)|leds_not0002      |   0.000|
+leds<4>     |   14.400(F)|leds_not0002      |   0.000|
+leds<5>     |   14.417(F)|leds_not0002      |   0.000|
+leds<6>     |   14.553(F)|leds_not0002      |   0.000|
+leds<7>     |   14.545(F)|leds_not0002      |   0.000|
+leds<8>     |   14.550(F)|leds_not0002      |   0.000|
+leds<9>     |   14.553(F)|leds_not0002      |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    5.511|         |         |         |
+intro<0>       |    6.664|    6.664|         |         |
+intro<1>       |    6.384|    6.384|         |         |
+intro<2>       |    6.194|    6.194|         |         |
+intro<3>       |    5.990|    5.990|         |         |
+intro<4>       |    6.883|    6.883|         |         |
+intro<5>       |    5.833|    5.833|         |         |
+intro<6>       |    3.563|    3.563|         |         |
+intro<7>       |    4.686|    4.686|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    3.100|    7.090|
+intro<1>       |         |         |    2.820|    7.090|
+intro<2>       |         |         |    2.630|    7.090|
+intro<3>       |         |         |    2.426|    7.090|
+intro<4>       |         |         |    3.319|    7.090|
+intro<5>       |         |         |    2.269|    7.090|
+intro<6>       |         |         |   -0.001|    7.090|
+intro<7>       |         |         |    1.122|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    3.324|    7.090|
+intro<1>       |         |         |    3.044|    7.090|
+intro<2>       |         |         |    2.854|    7.090|
+intro<3>       |         |         |    2.650|    7.090|
+intro<4>       |         |         |    3.543|    7.090|
+intro<5>       |         |         |    2.493|    7.090|
+intro<6>       |         |         |    0.223|    7.090|
+intro<7>       |         |         |    1.346|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    3.476|    7.090|
+intro<1>       |         |         |    3.196|    7.090|
+intro<2>       |         |         |    3.006|    7.090|
+intro<3>       |         |         |    2.802|    7.090|
+intro<4>       |         |         |    3.695|    7.090|
+intro<5>       |         |         |    2.645|    7.090|
+intro<6>       |         |         |    0.375|    7.090|
+intro<7>       |         |         |    1.498|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    3.640|    7.090|
+intro<1>       |         |         |    3.360|    7.090|
+intro<2>       |         |         |    3.170|    7.090|
+intro<3>       |         |         |    2.966|    7.090|
+intro<4>       |         |         |    3.859|    7.090|
+intro<5>       |         |         |    2.809|    7.090|
+intro<6>       |         |         |    0.539|    7.090|
+intro<7>       |         |         |    1.662|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    2.924|    7.090|
+intro<1>       |         |         |    2.644|    7.090|
+intro<2>       |         |         |    2.454|    7.090|
+intro<3>       |         |         |    2.250|    7.090|
+intro<4>       |         |         |    3.143|    7.090|
+intro<5>       |         |         |    2.093|    7.090|
+intro<6>       |         |         |   -0.177|    7.090|
+intro<7>       |         |         |    0.946|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    3.765|    7.090|
+intro<1>       |         |         |    3.485|    7.090|
+intro<2>       |         |         |    3.295|    7.090|
+intro<3>       |         |         |    3.091|    7.090|
+intro<4>       |         |         |    3.984|    7.090|
+intro<5>       |         |         |    2.934|    7.090|
+intro<6>       |         |         |    0.664|    7.090|
+intro<7>       |         |         |    1.787|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    5.581|    7.090|
+intro<1>       |         |         |    5.301|    7.090|
+intro<2>       |         |         |    5.111|    7.090|
+intro<3>       |         |         |    4.907|    7.090|
+intro<4>       |         |         |    5.800|    7.090|
+intro<5>       |         |         |    4.750|    7.090|
+intro<6>       |         |         |    2.480|    7.090|
+intro<7>       |         |         |    3.603|    7.090|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock intro<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    7.882|         |
+intro<0>       |         |         |    4.683|    7.090|
+intro<1>       |         |         |    4.403|    7.090|
+intro<2>       |         |         |    4.213|    7.090|
+intro<3>       |         |         |    4.009|    7.090|
+intro<4>       |         |         |    4.902|    7.090|
+intro<5>       |         |         |    3.852|    7.090|
+intro<6>       |         |         |    1.582|    7.090|
+intro<7>       |         |         |    2.705|    7.090|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+-------------------+---------+
+Source Pad     |Destination Pad    |  Delay  |
+---------------+-------------------+---------+
+intro<0>       |intentos_cerrojo<0>|   15.371|
+intro<0>       |intentos_cerrojo<2>|   16.030|
+intro<0>       |intentos_cerrojo<3>|   17.011|
+intro<0>       |intentos_cerrojo<4>|   15.168|
+intro<0>       |intentos_cerrojo<5>|   16.243|
+intro<0>       |intentos_cerrojo<6>|   15.155|
+intro<1>       |intentos_cerrojo<0>|   15.091|
+intro<1>       |intentos_cerrojo<2>|   15.750|
+intro<1>       |intentos_cerrojo<3>|   16.731|
+intro<1>       |intentos_cerrojo<4>|   14.888|
+intro<1>       |intentos_cerrojo<5>|   15.963|
+intro<1>       |intentos_cerrojo<6>|   14.875|
+intro<2>       |intentos_cerrojo<0>|   14.901|
+intro<2>       |intentos_cerrojo<2>|   15.560|
+intro<2>       |intentos_cerrojo<3>|   16.541|
+intro<2>       |intentos_cerrojo<4>|   14.698|
+intro<2>       |intentos_cerrojo<5>|   15.773|
+intro<2>       |intentos_cerrojo<6>|   14.685|
+intro<3>       |intentos_cerrojo<0>|   14.697|
+intro<3>       |intentos_cerrojo<2>|   15.356|
+intro<3>       |intentos_cerrojo<3>|   16.337|
+intro<3>       |intentos_cerrojo<4>|   14.494|
+intro<3>       |intentos_cerrojo<5>|   15.569|
+intro<3>       |intentos_cerrojo<6>|   14.481|
+intro<4>       |intentos_cerrojo<0>|   15.590|
+intro<4>       |intentos_cerrojo<2>|   16.249|
+intro<4>       |intentos_cerrojo<3>|   17.230|
+intro<4>       |intentos_cerrojo<4>|   15.387|
+intro<4>       |intentos_cerrojo<5>|   16.462|
+intro<4>       |intentos_cerrojo<6>|   15.374|
+intro<5>       |intentos_cerrojo<0>|   14.540|
+intro<5>       |intentos_cerrojo<2>|   15.199|
+intro<5>       |intentos_cerrojo<3>|   16.180|
+intro<5>       |intentos_cerrojo<4>|   14.337|
+intro<5>       |intentos_cerrojo<5>|   15.412|
+intro<5>       |intentos_cerrojo<6>|   14.324|
+intro<6>       |intentos_cerrojo<0>|   12.270|
+intro<6>       |intentos_cerrojo<2>|   12.929|
+intro<6>       |intentos_cerrojo<3>|   13.910|
+intro<6>       |intentos_cerrojo<4>|   12.067|
+intro<6>       |intentos_cerrojo<5>|   13.142|
+intro<6>       |intentos_cerrojo<6>|   12.054|
+intro<7>       |intentos_cerrojo<0>|   13.393|
+intro<7>       |intentos_cerrojo<2>|   14.052|
+intro<7>       |intentos_cerrojo<3>|   15.033|
+intro<7>       |intentos_cerrojo<4>|   13.190|
+intro<7>       |intentos_cerrojo<5>|   14.265|
+intro<7>       |intentos_cerrojo<6>|   13.177|
+---------------+-------------------+---------+
+
+
+Analysis completed Wed Oct 17 16:46:16 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4527 MB
+
+
+

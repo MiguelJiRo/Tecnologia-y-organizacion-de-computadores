@@ -1,0 +1,8 @@
+AR debouncer debouncerarch C:/hlocal/Pr2/debouncer.vhd sub00/vhpl05 1539788023
+AR cerrojo beh C:/hlocal/Pr2/cerrojo.vhd sub00/vhpl03 1539788027
+EN divisor NULL C:/hlocal/Pr2/divisor.vhd sub00/vhpl01 1539682086
+AR conv_7seg behavioral C:/hlocal/Pr2/conv_7seg.vhd sub00/vhpl07 1539788025
+AR divisor divisor_arch C:/hlocal/Pr2/divisor.vhd sub00/vhpl02 1539682087
+EN conv_7seg NULL C:/hlocal/Pr2/conv_7seg.vhd sub00/vhpl06 1539788024
+EN debouncer NULL C:/hlocal/Pr2/debouncer.vhd sub00/vhpl04 1539788022
+EN cerrojo NULL C:/hlocal/Pr2/cerrojo.vhd sub00/vhpl00 1539788026

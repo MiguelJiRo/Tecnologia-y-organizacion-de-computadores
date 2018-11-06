@@ -1,0 +1,20 @@
+V3 14
+FL C:/hlocal/Pr2/cerrojo.vhd 2018/10/17.16:53:34 P.15xf
+EN work/cerrojo 1539788026 FL C:/hlocal/Pr2/cerrojo.vhd PB ieee/std_logic_1164 1335251622
+AR work/cerrojo/beh 1539788027 \
+      FL C:/hlocal/Pr2/cerrojo.vhd EN work/cerrojo 1539788026 CP debouncer \
+      CP conv_7seg
+FL C:/hlocal/Pr2/conv_7seg.vhd 2018/10/16.04:34:00 P.15xf
+EN work/conv_7seg 1539788024 FL C:/hlocal/Pr2/conv_7seg.vhd PB ieee/std_logic_1164 1335251622
+AR work/conv_7seg/Behavioral 1539788025 \
+      FL C:/hlocal/Pr2/conv_7seg.vhd EN work/conv_7seg 1539788024
+FL C:/hlocal/Pr2/debouncer.vhd 2018/10/16.04:34:02 P.15xf
+EN work/debouncer 1539788022 FL C:/hlocal/Pr2/debouncer.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/debouncer/debouncerArch 1539788023 \
+      FL C:/hlocal/Pr2/debouncer.vhd EN work/debouncer 1539788022
+FL C:/hlocal/Pr2/divisor.vhd 2015/10/19.09:40:26 P.15xf
+EN work/divisor 1539682086 FL C:/hlocal/Pr2/divisor.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/STD_LOGIC_UNSIGNED 1335251625
+AR work/divisor/divisor_arch 1539682087 \
+      FL C:/hlocal/Pr2/divisor.vhd EN work/divisor 1539682086

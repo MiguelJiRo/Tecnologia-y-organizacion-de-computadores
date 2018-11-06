@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/hlocal/Pr2/cerrojo_tb_isim_beh.exe" -prj "C:/hlocal/Pr2/cerrojo_tb_beh.prj" "work.cerrojo_tb" 

@@ -1,0 +1,3 @@
+vhdl work "sumador.vhd"
+vhdl work "multiplicador.vhd"
+vhdl work "multiplicador_tb.vhd"

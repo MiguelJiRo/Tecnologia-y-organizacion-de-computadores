@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+par -w -intstyle ise -ol high -t 1 cerrojo_map.ncd cerrojo.ncd cerrojo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cerrojo.twx cerrojo.ncd -o cerrojo.twr cerrojo.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f cerrojo.ut cerrojo.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+par -w -intstyle ise -ol high -t 1 cerrojo_map.ncd cerrojo.ncd cerrojo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cerrojo.twx cerrojo.ncd -o cerrojo.twr cerrojo.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f cerrojo.ut cerrojo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pines.ucf -p xc3s1000-ft256-5 cerrojo.ngc cerrojo.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o cerrojo_map.ncd cerrojo.ngd cerrojo.pcf 
+par -w -intstyle ise -ol high -t 1 cerrojo_map.ncd cerrojo.ncd cerrojo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml cerrojo.twx cerrojo.ncd -o cerrojo.twr cerrojo.pcf -ucf pines.ucf 
+bitgen -intstyle ise -f cerrojo.ut cerrojo.ncd 
+xst -intstyle ise -ifn "C:/hlocal/Pr2/cerrojo.xst" -ofn "C:/hlocal/Pr2/cerrojo.syr" 
